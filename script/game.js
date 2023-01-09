@@ -5,6 +5,5 @@ function nextSequence(){
     return randomNumber;
 }
 
-console.log(nextSequence());
-var randomChosenColour = buttonColor[nextSequence];
+var randomChosenColour = buttonColor[nextSequence()];
 console.log(randomChosenColour);
