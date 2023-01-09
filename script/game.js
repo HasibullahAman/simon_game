@@ -7,4 +7,5 @@ function nextSequence(){
 }
 
 var randomChosenColour = buttonColor[nextSequence()];
-console.log(randomChosenColour);
+gamePattern.push(randomChosenColour);
+// console.log(randomChosenColour);
