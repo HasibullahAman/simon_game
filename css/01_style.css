@@ -40,4 +40,13 @@ body #level-title {
   font-size: 3rem;
   margin: 1%;
   color: #fef2bf;
+}
+
+#randomChosenColour {
+  text-align: center;
+  font-family: Helvetica;
+  background: IndianRed;
+  height: 50px;
+  line-height: 50px;
+  width: 150px;
 }/*# sourceMappingURL=01_style.css.map */

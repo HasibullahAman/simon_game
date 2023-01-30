@@ -9,4 +9,4 @@ var randomChosenColour = buttonColor[nextSequence()];
 console.log(randomChosenColour);
 gamePattern.push(randomChosenColour);
 
-$('#randomChosenColour').fadeOut(1000).fadeIn(1000).fadeOut(1000).fadeIn(1000);
+$('#'+randomChosenColour).fadeOut(1000).fadeIn(1000).fadeOut(1000).fadeIn(1000);
